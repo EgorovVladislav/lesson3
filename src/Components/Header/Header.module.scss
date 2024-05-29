@@ -1,0 +1,28 @@
+.users {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid;
+}
+.user,
+.post,
+.img {
+  width: 30%;
+  height: 50px;
+  border: 1px solid;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user:hover {
+  background-color: grey;
+}
+.post:hover {
+  background-color: grey;
+}
+.img:hover {
+  background-color: grey;
+}

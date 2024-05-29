@@ -1,0 +1,27 @@
+.description {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .containerUser,
+  .containerPost,
+  .containerImg {
+    width: 30%;
+    height: 100%;
+  }
+}
+.userList,
+.postList,
+.imgList {
+  li {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+  .post {
+    display: flex;
+    justify-content: space-between;
+  }
+}
